@@ -3,7 +3,10 @@
 **git客户端安装使用不做介绍**
 **git flow的安装与介绍 参考:[https://github.com/nvie/gitflow/wiki/Installation](https://github.com/nvie/gitflow/wiki/Installation)**
 
-######1.git flow使用参考   [http://www.ituring.com.cn/article/56870](http://www.ituring.com.cn/article/56870)  重点理解几个分支作用 (所有开发人员约定，必须遵守的规则) [http://fann.im/blog/2012/03/12/git-flow-notes/](http://fann.im/blog/2012/03/12/git-flow-notes/)
+######1.git flow使用参考
+- [http://www.ituring.com.cn/article/56870](http://www.ituring.com.cn/article/56870)  重点理解几个分支作用 (所有开发人员约定，必须遵守的规则) 
+- [http://fann.im/blog/2012/03/12/git-flow-notes/](http://fann.im/blog/2012/03/12/git-flow-notes/)
+- [http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html](http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html)
 
 ```js
 主分支分为 master分支和 development 分支
