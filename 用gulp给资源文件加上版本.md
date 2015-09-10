@@ -9,7 +9,7 @@
     "gulp-clean": "^0.3.1",
     "gulp-concat": "^2.5.2",
     "gulp-imagemin": "^2.2.1",
-	｀｀｀
+	...
   }
 ```
 ###### ２．安装所需的gulp插件
