@@ -140,6 +140,7 @@ $ git push -f origin master
 
 ###4. 标签
 >git的标签是版本库的快照，但其实它就是指向某个commit的指针，跟分支很像，但是分支可以移动，标签不能移动
+
 ```bash
 $ git tag #查看已有标签
 $ git tag v1.0 #创建
@@ -148,7 +149,6 @@ $ git tag v1.1 commit_hash
 #用-a指定标签名，-m指定说明文字
 $ git tag -a v1.1 -m "version 1.1 released" commit_hash
 $ git show v1.0 #查看
-
 $ git tag -d v0.1 #删除标签
 $ git push origin v1.0 #推送标签到远程
 $ git push origin --tags #一次性推送全部尚未推送到远程的本地标签
@@ -156,12 +156,13 @@ $ git push origin --tags #一次性推送全部尚未推送到远程的本地标
 $ git tag -d v1.1
 $ git push origin :refs/tags/v1.1
 ```
+
 ###5. 关于.gitconfig 、.gitignore
 
 #####5.1 所有 Git 配置都保存在你的`.gitconfig` 文件中
 
 | 别名 Alias | 命令 Command | 设置  |
-| - | --- | --- |
+| --- | --- | --- |
 | `git cm` | `git commit` | `git config --global alias.cm commit` |
 | `git co` | `git checkout` | `git config --global alias.co checkout` |
 | `git ac` | `git add . -A` `git commit` | `git config --global alias.ac '!git add -A && git commit'` |
@@ -178,7 +179,9 @@ $ git config --global help.autocorrect 1
 ```
 
 #####5.2 .gitignore  [忽略文件模板](https://github.com/github/gitignore)
+
 `忽略版本库的文件、文件夹`
+
 ```bash
 #1.查看取消某个文件(夹)可能影响到的文件列表预览 -n这个参数表示预览
 $ git rm -r -n --cached [Directory or File]
