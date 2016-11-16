@@ -158,7 +158,7 @@ $ git push origin :refs/tags/v1.1
 ```
 ###5. 关于.gitconfig 、.gitignore
 
-#####5.1 所有 Git 配置都保存在你的` .gitconfig` 文件中
+#####5.1 所有 Git 配置都保存在你的`.gitconfig` 文件中
 
 | 别名 Alias | 命令 Command | 设置  |
 | - | --- | --- |
